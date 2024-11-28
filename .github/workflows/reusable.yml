@@ -1,0 +1,9 @@
+# This workflow is used by the `using-reuse.yml` & this will never execute alone.
+name: Reusable Deploy
+on: workflow_call
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: Output information
+              run: echo "Deploy and uploading"
