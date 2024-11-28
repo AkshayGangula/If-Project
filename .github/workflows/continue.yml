@@ -1,4 +1,5 @@
-name: Website Deployment
+# AkshayGangula/If-Project
+name: Continuous Website Deployment
 on:
   push:
     branches:
